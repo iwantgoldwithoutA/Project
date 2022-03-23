@@ -1,0 +1,39 @@
+.Logo-post {
+    position: fixed; 
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    z-index: 999; 
+    justify-content: center; 
+    align-items: center; 
+} 
+.Logo-post-bg {
+    background-color: rgba(187, 243, 250, 0.658);
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0; 
+} 
+.Logo-post-content {
+    position: relative; 
+    max-width: 800px; 
+    margin-right: auto; 
+    margin-left: auto; 
+
+}
+.Logo-post-content img { 
+    display: block; 
+    max-width: 100%; 
+    max-height: calc(100vh - 30px);
+    margin-right: auto; 
+    margin-left: auto; 
+    padding-top: 30px;
+}
+@media (max-width:440px)
+{ 
+    .Logo-post-content img { 
+    padding-top: 100px;
+    }  
+}

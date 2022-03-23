@@ -1,0 +1,98 @@
+.backgrand2{
+  /* background: rgba(43, 40, 40, 0.5); */
+  backdrop-filter: blur(10px); 
+  background-color: #fafaeb;
+  width: 100%;
+  height: 110vh; 
+}
+
+.dun {
+  padding: 10%;
+}
+  
+.Email {
+    color: #6ab7d6;  
+  }
+
+.password1 {
+    color: #6ab7d6; 
+}
+
+.password2 {
+    color: #6ab7d6; 
+}
+
+.card1 {  
+  
+    background-color: #fff;
+    padding: 10px 5px;
+    padding-bottom: 5px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  input[type=text6] {  
+    padding: 12px ;
+    margin: 8px 0;
+    width: 100%;   
+    /* display:inline-flex; */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  }
+
+  input[type=text7] {  
+    padding: 12px ;
+    margin: 8px 0;
+    width: 100%;   
+    /* display:inline-flex; */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  } 
+ 
+
+  input[type=password] {  
+    padding: 12px ;
+    margin: 8px 0;
+    width: 100%;   
+    /* display:inline-flex; */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+  }
+
+  input[type=submit] {
+    width: 100%;    
+    background-color: #e4fcfd;
+    color: #6ab7d6;
+    /* background: '#e4fcfd', color: '#6ab7d6' */
+    padding: 14px 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Mitr', sans-serif;
+    
+  }
+
+.form-check-label{
+  width: 100%;
+}
+
+.form-check{
+  width: 38vh;
+  color: #6ab7d6;
+  font-family: 'Mitr', sans-serif;
+}
+
+.form-text{
+  font-size: large;
+  
+}
+
+  
+  
+  

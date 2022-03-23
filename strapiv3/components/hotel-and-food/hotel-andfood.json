@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_hotel_and_food_hotel_andfoods",
+  "info": {
+    "name": "hotelAndfood",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "foods": {
+      "collection": "food"
+    }
+  }
+}

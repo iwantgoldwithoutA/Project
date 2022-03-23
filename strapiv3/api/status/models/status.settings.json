@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statuses",
+  "info": {
+    "name": "Status",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "statuses",
+      "dominant": true
+    },
+    "StatusPaid": {
+      "type": "string"
+    }
+  }
+}

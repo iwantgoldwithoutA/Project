@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foods",
+  "info": {
+    "name": "Food",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Coursename": {
+      "type": "string"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "users_permissions_users": {
+      "via": "foods",
+      "plugin": "users-permissions",
+      "collection": "user",
+      "dominant": true
+    },
+    "bookings": {
+      "via": "foods",
+      "collection": "booking"
+    }
+  }
+}

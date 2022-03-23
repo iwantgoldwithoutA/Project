@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/payment-uploads",
+      "handler": "payment-upload.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/payment-uploads/count",
+      "handler": "payment-upload.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/payment-uploads/:id",
+      "handler": "payment-upload.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/payment-uploads",
+      "handler": "payment-upload.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/payment-uploads/:id",
+      "handler": "payment-upload.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/payment-uploads/:id",
+      "handler": "payment-upload.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

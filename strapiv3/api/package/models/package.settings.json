@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "packages",
+  "info": {
+    "name": "Package",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Detail_about_package": {
+      "type": "richtext"
+    },
+    "Preview": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "NamePac": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "packages",
+      "dominant": true
+    },
+    "bookings": {
+      "via": "packages",
+      "collection": "booking"
+    }
+  }
+}

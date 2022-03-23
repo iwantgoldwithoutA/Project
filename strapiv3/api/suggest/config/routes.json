@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/suggests",
+      "handler": "suggest.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/suggests/count",
+      "handler": "suggest.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/suggests/:id",
+      "handler": "suggest.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/suggests",
+      "handler": "suggest.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/suggests/:id",
+      "handler": "suggest.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/suggests/:id",
+      "handler": "suggest.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hotels",
+  "info": {
+    "name": "Hotel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "bookings": {
+      "via": "hotels",
+      "collection": "booking",
+      "dominant": true
+    }
+  }
+}

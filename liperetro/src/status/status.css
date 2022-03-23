@@ -1,0 +1,244 @@
+.payment-btn {
+    text-align-last: center;    
+    padding: 30px;
+    
+}
+
+.payment-btn a{
+    font-size :24px;
+    text-align-last: center;    
+    color: #6AB7D6;
+    background-color: #fff;
+    padding: 20px 20%;
+    border-radius: 4px;
+    border: 4px solid var(--primary);
+    font-family: 'Mitr', sans-serif;
+        
+}
+
+.Text-status {
+    color:#6AB7D6;
+    padding: 30px;    
+    text-align-last: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.text-to-login,
+.status-blank {
+    color:#6AB7D6;
+    text-align-last: center;
+    font-family: 'Mitr', sans-serif;
+}
+
+.login-btn {
+    padding: 15px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: #E4FCFD;
+    cursor: pointer;
+    background-color: var(--primary);
+    font-family: 'Mitr', sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-left: calc(50vw - 4.5rem);
+    margin-top: 40px;
+}
+
+.login-btn:hover {
+    transition: all 0.3s ease-out;
+    background-color: transparent;
+    color: var(--primary);
+    border-radius: 4px;
+    border: 4px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+/* .background-status{
+    background-color: #FAFAEB;
+    height: 100vh;
+} */
+.backgrand-status{
+    height: 100vh;
+    background-color: #FAFAEB;   
+
+}
+
+.Box-Usename1{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+}
+.Box-H-M{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+.Box-Usename2{
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.backgrand-status1{
+    max-width: 100vh;
+    max-width: 100vw;
+    background-color: #FAFAEB;
+}
+
+.status-border {
+    border-style: solid;
+    color: #6AB7D6;
+    background-color: #E4FCFD;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5vw;
+}
+
+.Usename{
+    padding-left: 10px;
+}
+
+.Package-status{
+    /* padding-left: 2rem; */
+    padding: 1rem 2rem;
+}
+
+.Hotel img{
+    width: 35vh;
+}
+
+.Meal img{
+    width: 35vh;
+}
+
+.NameHotel{
+    padding-left: 2rem;
+}
+
+.NameMeal{
+    padding-left: 2rem;
+}
+.Hotel{
+    padding-top: 1rem;
+}
+.Meal{
+    padding-top: 1rem;
+}
+
+.topic-Additional{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+.Additional{
+    font-size: 0.6cm;
+    color:#6AB7D6; 
+    font-family: 'Mitr', sans-serif;
+    border-style: solid;
+    border-radius: 15px;
+    max-width: 80%;
+    margin-left: 4.8vw;
+    word-wrap: break-word;
+    padding: .5rem 1rem;
+    background-color: #FAFAEB;
+}
+
+.topic-Adult{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+.person-num,
+.price {
+    font-size: 0.6cm;
+    color:#6AB7D6; 
+    font-family: 'Mitr', sans-serif;
+    border-style: solid;
+    border-radius: 15px;
+    max-width: fit-content;
+    margin-left: 4.8vw;
+    word-wrap: break-word;
+    padding: .5rem 1rem;
+    background-color: #FAFAEB; 
+}
+
+.Status{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+.Evidence{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+
+.Evidence1 img{
+    height: 350px;
+    margin-left: 4.8vw;
+}
+
+.Hotel img,
+.Meal img,
+.Evidence1 img {
+    border-radius: 15px;
+}
+
+.Total{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 1rem 2rem;
+}
+
+.payment-status{
+    padding: 6px 18px;
+    background-color: #FAFAEB;
+    color: var(--primary);
+    border-radius: 15px;
+    border: solid var(--primary);
+    font-family: 'Mitr', sans-serif;
+    font-size: 0.6cm;
+    max-width: fit-content;
+    margin-left: 4.8vw;
+    padding: .5rem 1rem;
+}
+.Total1{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.home-btn{
+    font-size:1.7rem;
+    background-color: #6AB7D6;
+    color:#fff;
+    padding:0.5rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    font-family: 'Mitr', sans-serif;
+}
+
+.home-btn:hover{
+    color: #000;
+}
+
+.home1{
+    padding-left: 80%;
+    padding: 2rem;
+}
+@media screen and (max-width: 480px) {
+
+    .text-to-login,
+    .status-blank {
+        text-align: center;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .login-btn {
+        margin-left: calc(50vw - 4rem);
+    }
+}

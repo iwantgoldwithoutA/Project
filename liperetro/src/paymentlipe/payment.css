@@ -1,0 +1,66 @@
+/* .app{
+  background-color: #FAFAEB;
+} */
+
+/* body{
+  background-color: #FAFAEB;
+} */
+.app-header{
+  border-bottom: 1px  ; 
+  /* height: 50px;  */
+  display: flex;
+  justify-content: center;  
+  align-items:center;
+  padding-top: 3rem;  
+  color: #6AB7D6;
+  background-color: #FAFAEB;
+  font-family: 'Mitr', sans-serif;
+  
+} 
+
+.box-app-grip{
+  background-color: #FAFAEB;
+  font-family: 'Mitr', sans-serif;
+}
+.app-grip{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px; 
+  row-gap: 16px;
+  max-width: 800px;  
+  align-items:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;  
+  background-color: #FAFAEB;
+} 
+
+.logo-pyment img {
+  display: block; 
+  width: 100%;
+
+}
+
+.payment-title {
+  font-size: 16px;
+  color: #6AB7D6;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.back-payment a {
+  font-size: 1.2rem;
+  font-family: 'Mitr', sans-serif;
+}
+
+@media (max-width:440px){ 
+  .app-grip{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .next-app{
+    padding-bottom: 5rem;
+  }
+
+
+}

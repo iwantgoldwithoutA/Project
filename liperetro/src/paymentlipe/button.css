@@ -1,0 +1,10 @@
+.next-app-payment{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #FAFAEB;
+    padding-top: 3rem;
+    padding-bottom: 5.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    height: 30vh;      
+}

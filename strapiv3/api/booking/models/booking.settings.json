@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "Booking",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "bookings",
+      "dominant": true
+    },
+    "foods": {
+      "collection": "food",
+      "via": "bookings",
+      "dominant": true
+    },
+    "packages": {
+      "collection": "package",
+      "via": "bookings",
+      "dominant": true
+    },
+    "Additional": {
+      "type": "richtext"
+    },
+    "Person": {
+      "type": "integer"
+    },
+    "hotels": {
+      "via": "bookings",
+      "collection": "hotel"
+    },
+    "Prices": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "boolean"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Date": {
+      "type": "date"
+    }
+  }
+}

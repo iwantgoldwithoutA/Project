@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_user_status_userstatuses",
+  "info": {
+    "name": "Userstatus",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "payment_upload": {
+      "model": "payment-upload"
+    },
+    "package": {
+      "model": "package"
+    }
+  }
+}

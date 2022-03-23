@@ -1,0 +1,95 @@
+.suggest {
+    font-size: 40px;
+    padding: 20px 30px;
+    color: #6AB7D6;
+    background-color: #FAFAEB;
+    font-family: 'Mitr', sans-serif;
+    
+}
+
+.cardbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,45%);
+    grid-gap: 20px;
+    justify-content: center;
+    background-color: #FAFAEB;
+}
+
+/* .cardbox img {
+    transition: 0.5s;
+} */
+
+.cardbox .box0 {
+    transition: 0.5s;
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cardbox .box0:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+}
+
+.dialog {
+    position: absolute;
+    z-index: 5;
+}
+
+.box-btn {
+    /* padding:3rem 50%; */
+    background-color: #FAFAEB;
+    padding-left: 75vw;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  
+.box-btn a{
+      font-size:1.7rem;
+      background-color: #6AB7D6;
+      color:#fff;
+      padding:0.5rem 2rem;
+      text-decoration: none;
+      border-radius: .5rem;
+      font-family: 'Mitr', sans-serif;
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 960px) {   
+
+    .box-btn {
+        padding-left: 70vw;
+                
+    }
+
+    .box-btn a{
+        font-size:1.45rem;
+    }
+}
+
+  @media screen and (min-width: 400px) and (max-width: 600px) {   
+
+    .box-btn {
+        padding-left: 60vw;
+                
+    }
+
+    .box-btn a{
+        font-size:1.3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {   
+
+    .box-btn {
+        padding-left: 50vw;
+                
+    }
+
+    .box-btn a{
+        font-size:1.2rem;
+    }
+}

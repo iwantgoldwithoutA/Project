@@ -1,0 +1,97 @@
+.backgrand1 {  
+  display: flex;
+  align-items: center;
+  flex-direction: column;  
+  background-color: #fafaeb;
+  height: 100vh;
+  width: 100vw;
+  /* background: rgba(255, 255, 255, 0.5); */
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  /* backdrop-filter: blur(10px);   */
+  /* color: #ffffff; */
+  /* text-transform: uppercase; */ 
+
+}
+.run{
+  padding-top: 20%;
+}
+.L-and-r {
+  background: #e4fcfd;
+  /* padding-top: 20%; */
+}
+
+.login {
+  height: 70px;    
+  color: #6ab7d6;
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  border-right: 4px solid  #6ab7d6  ;
+  /* border-left: 4px solid  #6ab7d6; */
+  
+}
+
+.register {
+  height: 70px;  
+  color: #6ab7d6;
+  padding: 5px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: ri;  
+}
+.card-login {  
+  
+  background-color:rgb(255, 255, 255);
+  padding: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.Username {
+  color: #6ab7d6;  
+}
+
+.password {
+  color: #6ab7d6;
+}
+
+
+input[type=text4] {  
+  padding: 12px ;
+  margin: 8px 0;
+  width: 100%;   
+  /* display:inline-flex; */
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
+
+input[type=password] {  
+  padding: 12px ;
+  margin: 8px 0;
+  width: 100%;   
+  /* display:inline-flex; */
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  /* box-sizing: border-box; */
+}
+
+
+
+/* @media (max-width:440px){
+  input[type=text5] {     
+    width: 100%;
+  }
+  input[type=text4] {     
+    width: 100%;
+  }
+} */

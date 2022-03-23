@@ -1,0 +1,131 @@
+.pics {
+    display: flex;
+    width: 40%;
+    height: 60vh;
+    margin-left: 30%;
+}
+
+.pics .picture {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+}
+
+.picture {
+    background-image: url("./pics/peangpor.jpg");
+}
+
+.hotel-form,
+.meal-form {
+    padding: 0px 30px;
+    font-size: 20px;
+    color: var(--primary);
+    font-family: 'Mitr', sans-serif;
+}
+
+.form-check-input:checked[type=radio] {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-booking,
+.btn-back {
+    font-size:1.7rem;
+    background-color: #6AB7D6;
+    color:#fff;
+    padding:0.5rem 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    float: right;
+    font-family: 'Mitr', sans-serif;
+}
+
+.description {
+    color: var(--primary);
+    padding: 6px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Mitr', sans-serif;
+}
+
+select{
+    font-size:  20px;;
+    color: #6AB7D6;
+    font-family: 'Mitr', sans-serif;
+    box-sizing:content-box;    
+    margin-bottom: 10px;
+}
+
+.topic{
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.price-booking {
+    color:#6AB7D6;    
+    font-family: 'Mitr', sans-serif;
+    font-size: 1.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.backgrand-status2{
+    height: 160vh;
+    width: 100vw;
+    background-color: #FAFAEB;
+}
+
+.box-book-back{
+    /* max-height: 100vh;
+    max-width: 100vw; */
+    background-color: #FAFAEB;
+}
+
+.additional,
+.person{
+    padding: .5rem 1rem;
+    margin: 0;
+    color:rgb(68, 68, 68);     
+    font-family: 'Mitr', sans-serif;
+}
+
+.person {
+    margin-bottom: 20px;
+}
+
+@media (max-width:1200px){   
+    .pics {
+        width: 80%;
+        height: 40vh;
+        margin-left: 10%;
+    }
+}
+@media (max-width:440px){   
+    .pics {
+        width: 80%;
+        height: 30vh;
+        margin-left: 10%;
+    }
+
+    .btn-booking,
+    .btn-back {
+        font-size:1.2rem;
+        background-color: #6AB7D6;
+        color:#fff;
+        padding:0.5rem 2rem;
+        text-decoration: none;
+        border-radius: .5rem;
+    }
+
+    .backgrand-status2{
+        height: 150vh;
+        width: 100vw;
+        background-color: #FAFAEB;
+    }
+}

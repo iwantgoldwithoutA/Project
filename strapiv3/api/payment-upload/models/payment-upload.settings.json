@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment_uploads",
+  "info": {
+    "name": "payment upload",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos",
+        "media"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "payment_uploads",
+      "dominant": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "suggests",
+  "info": {
+    "name": "Suggest"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Detail": {
+      "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Name": {
+      "type": "string"
+    }
+  }
+}
